@@ -1,0 +1,36 @@
+body {
+    margin-bottom: 60px; /* Espaço para a navbar fixa */
+}
+
+/* Estilização da navbar fixa na parte inferior */
+footer.navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+    padding: 10px 0;
+}
+
+/* Centralizando o conteúdo do footer para mobile */
+footer .nav-link {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Centralizando o texto dentro do main */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Ajustes para textos menores em telas pequenas */
+@media (max-width: 576px) {
+    h4 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
